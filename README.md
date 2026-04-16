@@ -18,58 +18,51 @@ Analyze 200 sales transactions to identify top-performing products and regions, 
 ---
 
 ## Project Overview
-This project analyzes sales data from 2025 to understand product and regional performance. The goal is to deliver clear, data-driven insights and practical recommendations that can help optimize inventory, marketing efforts, and regional strategies to drive revenue growth.
+This project analyzes sales data from 2025 to understand product and regional performance and deliver clear, data-driven recommendations.
 
 ## Key Insights
 
 1. **Product Performance**
-   - **Clothes** is the top revenue generator with **₦140,476** (27.9% of total revenue).
+   - **Clothes** is the top revenue generator with **₦140,476** (27.9% of total).
    - **Shoes** follows with **₦103,048**.
-   - **Laptops** performed the weakest with **₦77,550**.
+   - **Laptops** was the weakest with **₦77,550**.
 
 2. **Regional Performance**
    - **West** region leads with **₦156,565** (31.1% of total revenue).
-   - **East** is the second strongest region with **₦124,625**.
-   - North and South regions show relatively lower performance.
+   - **East** is second with **₦124,625**.
 
 3. **Overall Metrics**
    - Total Revenue: **₦503,060**
-   - Average Order Value (AOV): **₦2,515**
+   - Average Order Value: **₦2,515**
    - Average Quantity per Order: **4.87 units**
 
-4. **Monthly Trend**
-   - Sales showed fluctuations throughout 2025 with no strong seasonal pattern visible in this dataset.
-
 ## Business Recommendations
+- Prioritize **Clothes** with increased marketing and stock, especially in the **West** region.
+- Expand operations/promotions in the **West** region.
+- Investigate low performance of **Laptops** and introduce bundle offers.
+- Expected impact: Focused strategy could increase revenue by **15–25%**.
 
-- **Focus on Clothes** — Allocate more marketing budget and stock variety for this category, especially in the **West** region.
-- **Expand in West Region** — Strongest performing region. Consider increasing distribution points or running targeted promotions here.
-- **Improve Laptops Performance** — Investigate reasons for low sales and introduce bundle offers (e.g., Laptop + Accessories).
-- **Monitor Trends** — With additional historical data, implement demand forecasting to better plan inventory.
-- **Expected Impact** — A focused strategy on top product and top region could potentially increase revenue by **15–25%** in the next quarter.
+## Visualizations
 
-## Visualizations Included
-- Revenue by Product (`revenue_by_product.png`)
-- Revenue by Region (`revenue_by_region.png`)
-- Monthly Revenue Trend (`monthly_revenue_trend.png`)
+**Revenue by Product**  
+![Revenue by Product](revenue_by_product.png)
 
-*(Screenshots of these charts are available in the repository)*
+**Revenue by Region**  
+![Revenue by Region](revenue_by_region.png)
+
+**Monthly Revenue Trend**  
+![Monthly Revenue Trend](monthly_revenue_trend.png)
 
 ## How to Run the Project
-
-1. Open the notebook in Google Colab:  
-   [`Sales_data_Analysis.ipynb`](Sales_data_Analysis.ipynb)
-
-2. Run the first cell to upload `sales_data.csv`.
-
-3. Execute the remaining cells to reproduce the analysis and generate visualizations.
+1. Open the notebook [`Sales_data_Analysis.ipynb`](Sales_data_Analysis.ipynb) in Google Colab.
+2. Upload `sales_data.csv` when prompted.
+3. Run all cells.
 
 ## Future Improvements
 - Add customer segmentation (RFM analysis)
 - Build an interactive dashboard using Streamlit or Power BI
-- Perform statistical significance tests between regions
 - Integrate SQL version of the analysis
 
 ## Author
 **Anuforo Boniface**  
-Location: Owerri, Imo, Nigeria  
+Location: Owerri, Imo, Nigeria
